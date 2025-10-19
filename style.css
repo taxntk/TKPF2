@@ -333,22 +333,30 @@ li {
     height: 10rem;
 }
 
-#contact .button {
+/* 追加分　2025.10.19 */
+.form-button {
     text-align: center;
-    margin-bottom: 150px;
+    margin: 50px 0 80px;
 }
 
-#contact .button input {
-    width: 200px;
-    background-color: #24292e;
-    color: #fff;
-    padding: 15px 0;
-    border: solid 1px #24292e;
+.submit-button {
+    text-align: center;
+    background-color: #5ed1f4;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    letter-spacing: 0.4em; 
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 -4px 5px -2px #6d95ce inset;
 }
 
-#contact .button input:hover {
-    background: #fff;
-    color: #24292e;
+.submit-button:hover {
+    background-color: #008CBA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 600px) {
@@ -358,12 +366,12 @@ li {
 
     #contact dt {
         width: 100%;
-        margin: 0 4%;
+        text-indent: 0.5em;
     }
 
     #contact dd {
 
-        margin: 0 4%;
+        margin: 0 3%;
     }
 }
 
@@ -374,4 +382,5 @@ footer {
     background-color: #9e9b9b;
     color: #fff;
     font-size: smaller;
+
 }
